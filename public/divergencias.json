@@ -1,0 +1,65 @@
+{
+  "gerado_em": "2026-11-08T23:04:12",
+  "divergencias": [
+    {
+      "tipo": "FALTA_NO_PAINEL",
+      "numero_erp": 10045,
+      "cliente": "João Batista Silva (cons. final)",
+      "cnpj": null,
+      "status_erp": "ABERTO",
+      "status_painel": null,
+      "valor_total": 315,
+      "incluido_em": "2026-11-05T09:35:00",
+      "ids_painel": null,
+      "detalhe": "Sem CNPJ no ERP. O painel exige CNPJ (provável motivo de não ter sido importado)."
+    },
+    {
+      "tipo": "FALTA_NO_PAINEL",
+      "numero_erp": 10052,
+      "cliente": "Frio Norte Instalações",
+      "cnpj": "22.222.222/0001-22",
+      "status_erp": "ABERTO",
+      "status_painel": null,
+      "valor_total": 1150,
+      "incluido_em": "2026-11-05T17:42:00",
+      "ids_painel": null,
+      "detalhe": "Incluído em 05/11 17:42, depois da última importação registrada no painel (05/11 14:00)."
+    },
+    {
+      "tipo": "DUPLICADO",
+      "numero_erp": 10047,
+      "cliente": "Offshore Serviços Marítimos",
+      "cnpj": "66.666.666/0001-66",
+      "status_erp": "ABERTO",
+      "status_painel": "ABERTO",
+      "valor_total": 2740,
+      "incluido_em": "2026-11-05T09:55:00",
+      "ids_painel": "6, 7",
+      "detalhe": "2 registros no painel para o mesmo pedido (ids 6, 7)."
+    },
+    {
+      "tipo": "STATUS_DIVERGENTE",
+      "numero_erp": 10049,
+      "cliente": "Ar & Cia Climatização",
+      "cnpj": "88.888.888/0001-88",
+      "status_erp": "FATURADO",
+      "status_painel": "ABERTO",
+      "valor_total": 1980,
+      "incluido_em": "2026-11-05T10:45:00",
+      "ids_painel": "9",
+      "detalhe": "ERP: FATURADO (alterado em 05/11 13:20). Painel: ABERTO."
+    },
+    {
+      "tipo": "SEM_ITENS",
+      "numero_erp": 10051,
+      "cliente": "Térmica Rio",
+      "cnpj": "99.999.999/0001-99",
+      "status_erp": "ABERTO",
+      "status_painel": "ABERTO",
+      "valor_total": 275,
+      "incluido_em": "2026-11-05T13:40:00",
+      "ids_painel": "11",
+      "detalhe": "Pedido no painel sem nenhum item (id 11)."
+    }
+  ]
+}
